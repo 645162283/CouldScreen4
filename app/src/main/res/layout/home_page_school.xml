@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.1">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.8" />
+
+        <TextView
+            android:text="院校"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:id="@+id/textView"
+            android:layout_weight="10.5" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="67.1" />
+
+        <TextView
+            android:text="查看更多"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_height="fill_parent"
+            android:id="@+id/check_more_school"
+            android:layout_weight="14.8" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="37.2">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.9" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="96.3">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@mipmap/bg_list_school"
+                android:layout_weight="12">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@mipmap/mes1"
+                    android:id="@+id/mes1"
+                    android:scaleType="fitXY"
+                    android:layout_weight="18.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="77.7">
+
+                    <TextView
+                        android:text="校心理健康教育咨询中心开展“人际交往的秘..."
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:textSize="20sp"
+                        android:id="@+id/mes1_title"
+                        android:textColor="#ffffff"
+                        android:gravity="center_vertical"
+                        android:layout_weight="3"/>
+
+                    <Space
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4"/>
+
+                    <TextView
+                        android:text="5月20日晚，我校心理健康教育咨询中心于海学楼406团辅 室举办新一期的T.E.D心演讲---“人际交往的秘密”..."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:id="@+id/mes1_content"
+                        android:textColor="#ffffff"
+                        android:layout_weight="5"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@mipmap/bg_list_school"
+                android:layout_weight="12">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@mipmap/mes2"
+                    android:id="@+id/mes2"
+                    android:scaleType="fitXY"
+                    android:layout_weight="18.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="77.7">
+                    <TextView
+                        android:text="南京市领导干部“依法行政”培训班在我校举办"
+                        android:layout_width="fill_parent"
+                        android:textSize="20sp"
+                        android:layout_height="0dp"
+                        android:id="@+id/mes2_title"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:layout_weight="3"/>
+
+                    <Space
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4"/>
+
+                    <TextView
+                        android:text="5月20日晚，我校心理健康教育咨询中心于海学楼406团辅 室举办新一期的T.E.D心演讲---“人际交往的秘密”..."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:id="@+id/mes2_content"
+                        android:layout_weight="5"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.7" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@mipmap/bg_list_school"
+                android:layout_weight="12">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="fill_parent"
+                    app:srcCompat="@mipmap/mes3"
+                    android:id="@+id/mes3"
+                    android:layout_weight="18.5" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="77.7">
+                    <TextView
+                        android:text="校心理健康教育咨询中心开展“人际交往的秘..."
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/mes3_title"
+                        android:textSize="20sp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:layout_weight="3"/>
+
+                    <Space
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="4"/>
+
+                    <TextView
+                        android:text="5月20日晚，我校心理健康教育咨询中心于海学楼406团辅 室举办新一期的T.E.D心演讲---“人际交往的秘密”..."
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:textColor="#ffffff"
+                        android:id="@+id/mes3_content"
+                        android:layout_weight="5"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.9" />
+    </LinearLayout>
+</LinearLayout>
